@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/mmap
+# catalog-date 2009-09-27 11:55:52 +0200
+# catalog-license lppl
+# catalog-version 1.03
 Name:		texlive-mmap
 Version:	1.03
 Release:	1
@@ -82,6 +88,7 @@ mathematics fonts.
 %{_texmfdistdir}/tex/latex/mmap/upzd-m.cmap
 %{_texmfdistdir}/tex/latex/mmap/upzd.cmap
 %doc %{_texmfdistdir}/doc/latex/mmap/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -92,3 +99,5 @@ mathematics fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
