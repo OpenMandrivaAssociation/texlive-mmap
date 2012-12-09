@@ -90,3 +90,17 @@ mathematics fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.03-2
++ Revision: 754040
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.03-1
++ Revision: 719050
+- texlive-mmap
+- texlive-mmap
+- texlive-mmap
+- texlive-mmap
+
