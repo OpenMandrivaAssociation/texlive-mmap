@@ -6,7 +6,7 @@
 # catalog-version 1.03
 Name:		texlive-mmap
 Version:	1.03
-Release:	7
+Release:	8
 Summary:	Include CMap resources in PDF files from PDFTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mmap
