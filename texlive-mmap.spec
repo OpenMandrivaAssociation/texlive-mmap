@@ -1,6 +1,6 @@
 Name:		texlive-mmap
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Include CMap resources in PDF files from PDFTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mmap
